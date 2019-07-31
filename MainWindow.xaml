@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="USRNM_INPUT" HorizontalAlignment="Left" Height="26" Margin="358,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="USRNM_LBL" Content="Username" HorizontalAlignment="Left" Margin="270,85,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="PSWD_INPUT" HorizontalAlignment="Left" Height="26" Margin="358,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="PSWD_LBL" Content="Password" HorizontalAlignment="Left" Margin="270,126,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BTN_LGIN" Content="Login" HorizontalAlignment="Left" Margin="278,193,0,0" VerticalAlignment="Top" Width="75" Click="BTN_LGIN_Click"/>
+        <Button x:Name="BTN_CANCEL" Content="Cancel" HorizontalAlignment="Left" Margin="379,193,0,0" VerticalAlignment="Top" Width="75" Click="BTN_LGIN_Click"/>
+
     </Grid>
 </Window>
